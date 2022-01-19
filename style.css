@@ -48,6 +48,9 @@ table {
 /* header */
 header {
     background-color: #e60012;
+    position:fixed;
+    width:100%;
+    z-index: 1;
 }
 
 header  ul {
@@ -86,6 +89,7 @@ main {
     width: 10vh;
     height: 100vh;
     position:fixed;
+    top:75px;
 }
 
 .leftaside ul {
@@ -146,9 +150,19 @@ main {
     display: flex;
 }
 
-.rightaside h1{
-font-weight: bold;
+.rightaside li:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
+
+.rightaside h1{
+    font-weight: bold;
+}
+
+.rightaside h1:hover{
+    cursor: default;
+    text-decoration: none;
+    }
 
 /* grid */
 .grid-container {
@@ -156,7 +170,14 @@ font-weight: bold;
     grid-template-columns: auto auto auto;
     padding: 10px;
     margin-left: 90px;
+    margin-top:70px;
   }
+
+  .grid-container img:hover {
+    box-shadow:  0px 5px grey;
+    padding-top: 1px;
+  }
+
   .grid-item {
     margin:2px 2px;
     font-size: 30px;
@@ -166,7 +187,6 @@ font-weight: bold;
   .grid-item1{
     grid-row-start: 1;
     grid-row-end: 3;
-    padding: 20px;
     font-size: 30px;
     text-align: center;
   }
@@ -174,7 +194,9 @@ font-weight: bold;
   .grid-item4{
     grid-column-start: 2;
     grid-column-end: 4;
-    padding: 20px;
+    grid-row-start: 2;
     font-size: 30px;
     text-align: center;
+    margin: 10px;
+    margin-top:-90px;
   }
