@@ -44,6 +44,8 @@ table {
 }
 
 /* css  */
+
+/* header */
 header {
     background-color: #e60012;
 }
@@ -59,13 +61,50 @@ header  li {
     color: white;
 }
 
+header  li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 header li svg {
     display: flex;
-    flex-direction: column;
     width: 20px;
     height: 20px;
 }
 
-body {
+/* main */
+main {
     background-color: white;
+}
+
+/* left aside */
+.leftaside {
+    background-color: #e60012;
+    width: 10vh;
+    height: 100vh;
+}
+
+.leftaside ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftaside li {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.leftaside li:hover {
+    cursor: pointer;
+    background-color: #b50e0e;
+    
+}
+
+.leftaside li svg {
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    height: 20px;
 }
