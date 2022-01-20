@@ -107,7 +107,7 @@ header li svg {
 main {
     background-color: rgba(201, 197, 197, 0.384);
     display: flex;
-    /* justify-content: space-between; */
+    flex-wrap: wrap;
 }
 
 /* left aside */
@@ -284,4 +284,26 @@ main {
     grid-row-start: 10;
     margin: 10px;
     margin-top:0px;
+  }
+
+  /* social bar */
+#socialbar{
+      width: 74%;
+      height: 4em;
+      background-color: #333;
+      margin-bottom: 5%;
+      margin-left: 110px;
+  }
+
+  #socialbar svg{
+      width: 28px;
+      height: 28px;
+      margin-left: 220px;
+      margin-top: 20px;
+  }
+
+  #socialbar p {
+      color: #ffffff;
+      font-size:35px;
+      font-weight: bold;
   }
