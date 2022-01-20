@@ -67,7 +67,7 @@ table {
 }
 
 #svglogo {
-
+    margin-top: 30px;
     width: 10%;
 }
 
@@ -88,7 +88,8 @@ header  ul {
 
 header  li {
     display:inline;
-    margin: 10px;
+    margin-right: 10px;
+    margin-top: -20px;
     color: #ffffff;
 }
 
@@ -117,7 +118,7 @@ body {
     width: 10vh;
     height: 100vh;
     position:fixed;
-    top:75px;
+    top:80px;
 }
 
 .leftaside ul {
@@ -306,7 +307,7 @@ body {
 
   /* social bar */
 #socialbar{
-      width: 74%;
+      width: 92%;
       height: 4em;
       background-color: #333;
       margin-bottom: 5%;
@@ -318,6 +319,10 @@ body {
       height: 28px;
       margin-left: 220px;
       margin-top: 20px;
+  }
+
+  #socialbar img {
+    cursor: pointer;
   }
 
   #socialbar p {
@@ -338,4 +343,35 @@ footer {
 footer p {
     height: 3em;
     background-color: #e60012;
+}
+
+footer svg {
+    cursor: pointer;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+footer li{
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+footer li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#lastul {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-size: 10px;
+    font-family: sans-serif;
 }
