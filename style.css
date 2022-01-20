@@ -45,6 +45,32 @@ table {
 
 /* css  */
 
+/* typo */
+* {
+    font-family: sans-serif;
+}
+
+/* svg */
+
+.svgcenternavbar {
+    width: 25px;
+    height: 25px; 
+    position: relative;
+    margin: 4px 4px 4px 4px;
+    top: -5px; left: 12px;
+}
+
+.svgcenter {
+    position: relative;
+    margin: 4px 4px 4px 4px;
+    left: 25px;
+}
+
+#svglogo {
+
+    width: 10%;
+}
+
 /* header */
 header {
     background-color: #e60012;
@@ -198,5 +224,5 @@ main {
     font-size: 30px;
     text-align: center;
     margin: 10px;
-    margin-top:-90px;
+    margin-top:0px;
   }
